@@ -1,5 +1,9 @@
 # data-bindingmarlon
 
+Atividade data-biding utilizando o framework angular, realizando interpolacao, event biding e SelectOption.
+
+
+
 Turma: 4MB
 
 
