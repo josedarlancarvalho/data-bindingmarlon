@@ -1,0 +1,21 @@
+<p>{{ frase }}</p>
+
+<a href="meuLink">clique para ir ao site</a>
+<br><br><br>
+
+<p (click)="mudarCores()" [style.background-color]="corDeFundo" [style.color]="corDaFonte">clique neste parágrafo para mudar as cores.</p>
+
+<select [(ngModel)]="opcaoSelecionada">
+    <option value="opcao1">Professor</option>
+    <option value="opcao2">Aluno 1</option>
+    <option value="opcao3">Aluno 2</option>
+    <option value="opcao4">Aluno 3</option>
+  </select>
+  
+  <p *ngIf="opcaoSelecionada === 'opcao1'">Marlon - Professor</p>
+  <p *ngIf="opcaoSelecionada === 'opcao2'">Caio da Silva Nascimento - 01529409</p>
+  <p *ngIf="opcaoSelecionada === 'opcao3'">Jose Darlan de Lima Carvalho - 01466857</p>
+  <p *ngIf="opcaoSelecionada === 'opcao4'">Pedro Felipe da Silva Souza - 01510539
+</p>
+
+
